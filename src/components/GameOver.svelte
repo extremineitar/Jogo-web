@@ -1,9 +1,12 @@
 <script>
+    function handleClick() {
+        window.location.reload();
+    }
 </script>
 
 <div class="bin"></div>
 <div class="game-end">
-    <div class="game-over-card">Game over</div>
+    <div class="game-over-card" onclick={handleClick}>Game over</div>
 </div>
 
 <style>

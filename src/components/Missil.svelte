@@ -57,12 +57,12 @@
         /* border: solid 1px green; */
         height: 15px;
         width: 3px;
-        opacity: 1;
         transform-origin: center;
         position: absolute;
         background-size: 8px 15px;
         border: none;
         background-color: transparent;
         background-image: url('../../img/rocket.png');
+        background-repeat: no-repeat;
     }
 </style>
